@@ -14,7 +14,7 @@ a:hover {
 
 .left-side{
     margin-top: 3rem;
-    background: url(../Portfolio/Assets/Leftside.jpg);
+    background: url(Assets/Leftside.jpg);
     background-size: cover;
     position: fixed;
     left: 0;
@@ -48,6 +48,7 @@ a:hover {
     text-shadow: 2px 2px cyan;
 }
 #about-intro{
+    
     float:left;
     margin-left: 3rem;
     margin-top: 10rem;
@@ -92,7 +93,7 @@ a:hover {
 }
 
 .panel-right{
-    background: url(../Portfolio/Assets/RightSide.jpg);
+    background: url(Assets/RightSide.jpg);
     
 }
 
