@@ -1,52 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+  <title>Portfolio</title>
 </head>
 <body>
-    <div class="container">
-        <div class="row align-items-start">
-          <div class="col">
-            One of three columns
-          </div>
-          <div class="col">
-            One of three columns
-          </div>
-          <div class="col">
-            One of three columns
-          </div>
+  <nav class="navbar navbar fixed-top navbar-expand-lg navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" aria-current="page" href="#top">Home</a>
+          <a class="nav-link" href="https://www.linkedin.com/in/seth-thomas-088/">LinkedIn</a>
+          <a class="nav-link" href="https://github.com/Seth-Thomas">GitHub</a>
+          <a class="nav-link" href="../Portfolio/Software Development Resume (2).pdf" download="Software Development Resume (2)">My Resume</a>
+          <a class="nav-link" href="#contact-header">Contact Me</a>
         </div>
-        <div class="row align-items-center">
+      </div>
+    </div>
+  </nav>
+  <div class="left-side">
+    <div class="container-fluid full-height">
+      <div class="row text-center align-items-center full-height">
           <div class="col">
-            One of three columns
-          </div>
-          <div class="col">
-            One of three columns
-          </div>
-          <div class="col">
-            One of three columns
-          </div>
-        </div>
-        <div class="row align-items-end">
-          <div class="col">
-            One of three columns
-          </div>
-          <div class="col">
-            One of three columns
-          </div>
-          <div class="col">
-            One of three columns
+            <img src="Assets\PortfolioPic.jpg" alt="Portfolio Pic" class="portpic">
+            <h3>Hello, I'm Seth Thomas</h3>
+            <p>I'm a Software Developer</p>
           </div>
         </div>
       </div>
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-8 panel-right px-0">
+        <section id="about-intro">
+          <h1 id="header">Welcome to My Portfolio!</h1>
+          <h4 class="about">A Little About Myself</h4>
+          <p class="about-text">
+            I'm a graduate of Eleven Fifty Academy out of Indianapolis, Indiana where I learned computer languages, testing tools, and technologies. I worked on projects using C#, HTML, CSS, ASP.NET, API development, HTTP methods, MVC, and pair programming. Software development has become a true passion of mine for some time. Being able to write code and make a program run is one of the coolest things. It's fascinating to see how the behind the scenes magic all comes together. I really enjoy working on things that can make a difference. Take a look around and let me know what you think!
+          </p>
+        </section>
+        <section class="projects">
+          <h4 id="proj-title">Take a Look at Some of My Projects</h4>
+          <div id="container-fluid">
+            <div class="row gy-3">
+              <div class="col-md-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="../Portfolio/Assets/Fitness.jpg" class="card-img-top" class="img-fluid img-thumbnail"
+                      alt="KJPFit">
+                      <div class="card text-white bg-dark">
+                    <div class="card-body">
+                      <h5 class="card-title">KJPFit</h5>
+                      <p class="card-text">KJPFit is an ASP.NET MVC project that allows the user to create, edit, update, and delete their own personal workouts. 
+                      </p>
+                      <a href="https://github.com/Seth-Thomas/KJPFit.git" class="btn btn-light">Build your workout!</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="../Portfolio/Assets/OnlineMarketPlace.jpg" class="card-img-top"
+                      class="img-fluid img-thumbnail" alt="OnlineMarketPlace">
+                    <div class="card-body">
+                      <h5 class="card-title">Online Marketplace</h5>
+                      <p class="card-text">Online Marketplace is an ASP.NET Web API designed to allow users to view, create, update and delete data for ecommerce functionality. </p>
+                      <a href="https://github.com/Parker-Anderson/OnlineMarketPlace.git" class="btn btn-dark">Check it out!</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="../Portfolio/Assets/BusinessChallenge.jpg" class="card-img-top"
+                      class="img-fluid img-thumbnail" alt="BusinessChallenge">
+                      <div class="card text-white bg-dark">
+                    <div class="card-body">
+                      <h5 class="card-title">Business Challenges</h5>
+                      <p class="card-text">This Console Application showcases three different challenges of different situations. Check it out and have fun!</p>
+                      <a href="https://github.com/Seth-Thomas/GoldBadgeChallenge.git" class="btn btn-light">Click it, Tap it, Bop it!</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card h-100">
+                  <img src="../Portfolio/Assets/CSS.jpg" class="card-img-top" class="img-fluid img-thumbnail"
+                    alt="CSS Creature">
+                  <div class="card-body">
+                    <h5 class="card-title">CSS Creature</h5>
+                    <p class="card-text">This project demonstrates using CSS to create a creature. Click the button below to see what I made.</p>
+                    <a href="https://codepen.io/seth-thomas/pen/gOMqKQz" class="btn btn-dark">Click here!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card h-100">
+                  <img src="../Portfolio/Assets/Whiskey.jpg" class="card-img-top" class="img-fluid img-thumbnail"
+                    alt="WhiskeyBusiness">
+                    <div class="card text-white bg-dark">
+                  <div class="card-body">
+                    <h5 class="card-title">Whiskey Business</h5>
+                    <p class="card-text">Whiskey Business is a website homepage I created using HTML and CSS.</p>
+                    <a href="https://github.com/Seth-Thomas/StoreFront.git" class="btn btn-light">Check it out here!</a>
+                    </div>  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="contact">
+          <h4 id="contact-header">Contact Me</h4>
+          <fieldset>
+          <div class="mb-3">
+          <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xrgrewwb method" method="post">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="mb-3">
+                      <label for="full-name" class="form-label">Full Name:</label>
+                      <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="mb-3">
+                      <label for="email" class="form-label">Email address:</label>
+                      <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message:</label>
+                  <textarea class="form-control" id="message" rows="3" name="message"  placeholder="Leave a message..." required=""></textarea>
+                  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                </div>
+              </div>
+              </form>
+            </section>
+            <input id="submit"type="submit" value="Send" style="color:black; background-color: cyan;" >
+          </form>
+          </section>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous">
+  </script>
 </body>
+
 </html>
